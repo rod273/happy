@@ -27,9 +27,24 @@ body, input, button, textarea {
     min-height: 100vh;
     text-align: center;
     
+    display: flex;
+}
 
+#container {
+    margin: auto;
 }
 
 .location, h1, .visit p {
     height: 16vh;
+}
+
+.visit a {
+   width: 8rem; 
+   height: 8rem;
+   background: #FFD666;
+   border: none;
+   border-radius: 3rem;
+   display: flex;
+   text-align: center;
+   align-items: center;
 }
