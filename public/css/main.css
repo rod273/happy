@@ -22,47 +22,23 @@ body, input, button, textarea {
     font-family: 'Nunito', sans-serif;
 }
 
-#page-landing {
-    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%) no-repeat;
-    min-height: 100vh;
-    text-align: center;
-    
-    display: flex;
+
+#logo {
+    animation-delay: 50ms;;
 }
 
-#container {
-    margin: auto;
-    width: 90%;
+.location {
+    animation-delay: 100ms;
 }
 
-.location, h1, .visit p {
-    height: 16vh;
+main h1 {
+    animation-delay: 150ms;
+}
+
+.visit p {
+    animation-delay: 200ms;
 }
 
 .visit a {
-   width: 8rem; 
-   height: 8rem;
-   background: #FFD666;
-   border: none;
-   border-radius: 3rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
-   margin: 0 auto;
-}
-
-
-/*ANIMAÇÕES*/
-
-@keyframes up {
-    from {
-      opacity: 0;
-      transform: translateY(16px) ;
-    }
-
-    to {
-
-     opacity: 1;
-    }
+    animation-delay: 250ms;
 }
