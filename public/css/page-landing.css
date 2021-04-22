@@ -26,6 +26,11 @@
    align-items: center;
    
    margin: 0 auto;
+   transition: background .3s;
+}
+
+.visit a:hover {
+    background: #96feff;
 }
 
 #logo {
