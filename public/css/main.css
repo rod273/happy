@@ -51,3 +51,18 @@ body, input, button, textarea {
    
    margin: 0 auto;
 }
+
+
+/*ANIMAÇÕES*/
+
+@keyframes up {
+    from {
+      opacity: 0;
+      transform: translateY(16px) ;
+    }
+
+    to {
+
+     opacity: 1;
+    }
+}
