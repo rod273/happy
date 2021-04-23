@@ -68,4 +68,12 @@ main h1 {
         height: initial;
         text-align: initial;
     }
+
+    .location  {
+        text-align: right;
+    }
+
+    main h1 {
+        font-size: clamp(4rem, 8vw, 8.4rem);
+    }
 }
