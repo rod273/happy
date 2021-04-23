@@ -8,7 +8,7 @@
 
 #container {
     margin: auto;
-    width: 90%;
+    width: min(90%, 112rem);
 }
 
 .location, h1, .visit p {
@@ -62,5 +62,10 @@ main h1 {
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .location, h1, .visit p {
+        height: initial;
+        text-align: initial;
     }
 }
