@@ -52,3 +52,15 @@ main h1 {
 .visit a {
     animation-delay: 250ms;
 }
+
+
+/* DESKTOP VERSION*/
+
+@media (min-width: 760px) {
+    header {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
