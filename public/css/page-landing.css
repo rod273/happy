@@ -103,3 +103,10 @@ main h1 {
         margin: initial;
     }
 }
+
+
+/*desktop version*/
+
+@media (min-width: 760px) {
+
+}
